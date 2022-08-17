@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .logo img{
+    height: 60px;
+    width: 70px;
+} */
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    --main-color: #283526;
+    --primary-color:#888888;
+    --button-background: #4b709e;
+    --primary-button-background: #fe7649 ;
+    --background-color:#e2efff ;
+}
+
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--main-color);
+}
+h3,h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--main-color);
+}
+h3{
+    font-weight: 750;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    text-transform: capitalize;
+}
+p,a,li,button{
+    font-family: sans-serif;
+    color: var(--primary-color);
+
+}
+p{
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+li{
+    list-style: none;
+
+}
+button{
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+/* our main menu */
+header{
+    padding: 0 10rem;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+}
+header nav .left-side-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    /* background-color: #e2efff; */
+
+}
+header nav .left-side-menu a img{
+
+    width: 8rem;
+    height: 5.5rem;
+
+}
+header nav .left-side-menu .sub-menu{
+    height: inherit;
+    display: flex;
+
+}
+header nav .left-side-menu .sub-menu a{
+    margin-right: 4rem;
+   
+
+}
+header nav .left-side-menu .sub-menu a li{
+    font-size: 2rem;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    transition: all 0.2s ;
+}
+header nav .left-side-menu .sub-menu a li:hover{
+    color: var(--button-background);
+}
+
+/*-------------------------------- left side menu css code ------------------------- */
+
+header .right-side-menu{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+header .right-side-menu .sub-menu{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header .right-side-menu .sub-menu a{
+    margin-right: 8rem;
+    padding: 0.7rem 2rem;
+    font-size: 2rem;
+    background: rgba(160, 69, 69, 0.5);
+    cursor: pointer;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 9;
+    
+}
+header .right-side-menu .sub-menu a:hover{
+    background: rgba(163, 34, 34, 0.5);
+
+}
+header .right-side-menu .sub-menu a li{
+    color: #fff ;
+}
+header .right-side-menu .sub-menu button{
+    padding: 0.5rem 2.5rem;
+    background-color: var(--button-background);
+    color: #fff;
+    position: relative;
+    z-index: 9;
+}
+header .right-side-menu .sub-menu button:hover{
+    background-color: royalblue;
+
+}
+
+/* hero section css start */
+.main-hero-section{
+    padding: 0 10rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem 0;
+} 
+.main-hero-section h1{
+    font-size: 7rem;
+    width: 55rem;
+    line-height: 9rem;
+    margin-bottom: 5rem;
+
+}
+.main-hero-section p{
+    /* line-height: 5rem; */
+    margin-bottom: 1rem;
+    width: 55rem;
+}
+.main-hero-section .hero-left-side img{
+    width: 15.5rem;
+    height: 15rem;
+}
+.main-hero-section .hero-left-side .appstore{
+    /* width: 16.5rem; */
+    height: 16.5rem;
+    margin-bottom: -0.8rem;
+}
+
+/*-------------------------------- right side menu css code ------------------------- */
+.main-hero-section .hero-right-side{
+    width: 50%;
+    height: 100vh;
+    background: var(--background-color);
+    position: absolute;
+    right: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px 20px 0 90px;
+}
+.main-hero-section .hero-right-side img{
+     height: 70rem;
+    /* width: 50rem;  */
+}
