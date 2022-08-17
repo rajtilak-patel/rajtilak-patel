@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right , #9c27b0 ,#8ecdff);
+}
+
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 150px ;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-links ul li a:hover{
+    color: gray;
+    transition: 0.5s;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+    
+
+}
+.feature img{
+    width: 70px;
+    
+}
+.feature{
+    position: absolute;
+    display: flex;
+    color: #fff;
+
+}
+.feature div{
+    margin-left: 30px;
+}
+.feature div p{
+    margin-top: 8px;
+
+}
+.one{
+    top: 450px;
+    right: 50px;
+}
+.two{
+    top: 150px;
+    left: 350px;
+    transform: rotate(-90deg);
+}
+.three{
+    bottom: 450px;
+    left: 50px;
+    transform: rotate(-180deg);
+}
+.four{
+    bottom: 150px;
+    right: 350px;
+    transform: rotate(-270deg);
+}
+.mobile{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 15px 0;
+    color: #fff;
+}
+#upbtn{
+    width: 15px;
+    cursor: pointer;
+}
+#downbtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.overlay{
+    width: 0 ;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #fff;
+    border-left: 500px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.footer{
+    background-color: rgb(43, 40, 40);
+    color: white;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.foot{
+    padding: 16px 20px ;
+    margin-left: 530px;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+   
+}
+
+/* phone .css starting point  */
+#contact .contact{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#contact .contact-items{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+   justify-content: space-evenly;
+   padding: 30px;
+}
+#contact .contact-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px; 
+    margin: 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 18px 0 #00002c;
+    cursor: pointer;
+    transition: .3s ease box-shadow ;
+
+}
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 5px 0  #00002c;
+}
+#contact .icon{
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+#contact .contact-info h1{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+#contact .contact-info h2{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+.container{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-title{
+    font-size: 4rem;
+    margin-top: 70px;
+    font-weight: 300px;
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.section-title span{
+    color: red;
+}
+#contact .contact-items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+   justify-content: space-evenly;
+   padding: 20px;
+}
+/* phone .css endting point  */
+
