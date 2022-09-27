@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    background-image: url(./raj.jpg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;  */
+}
+h1{
+    font-weight: normal;
+    font-size: 6rem;
+    margin-top: 10rem;
+    color: #48b597;
+    border: 8px solid crimson;
+    border-radius: 12px;
+    padding: 5px 22px;
+    background-color: darkred;
+
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el {
+    text-align: center;
+
+}
+.countdown-el span{
+    font-size: 2rem;
+}
+.countdown-container{
+     display: flex; 
+     /* flex-direction: column;  */
+}
+.time{
+    border: 2px solid green;
+    padding: 3px 9px;
+    border-radius: 10px;
+    background-color: hotpink;
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.time:hover{
+    color: black;
+    cursor: pointer;
+    background-color: crimson;
+}
