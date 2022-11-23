@@ -13,6 +13,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![logo](https://www.creative2.com/wp-content/uploads/2021/10/Career-Page-Banner_Full-Stack-Developer.jpg)
 
 <h1 align="center">Hi 👋, I'm Rajtilak patel</h1>
 <h3 align="center">A passionate full stack web developer from India</h3>
