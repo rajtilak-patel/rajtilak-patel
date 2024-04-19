@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 
 - 👯 I’m looking to collaborate on [Bigbasket-website clone](https://sprightly-klepon-cb20fd.netlify.app/)
 
-- 👨‍💻 My projects are available at [[(https://rajtilak-portfolio.netlify.app/)](https://rajtilak-portfolio.netlify.app/)
+- 👨‍💻 My projects are available at [https://rajtilak-portfolio.netlify.app/](https://rajtilak-patel-portfolio.netlify.app/)
 
 - 💬 Ask me about **ReactJs , java , Nodejs ,Mongodb**
 
