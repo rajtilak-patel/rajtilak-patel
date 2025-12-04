@@ -1,4 +1,4 @@
-![banner](https://www.creative2.com/wp-content/uploads/2021/10/Career-Page-Banner_Full-Stack-Developer.jpg)
+![banner]([https://www.creative2.com/wp-content/uploads/2021/10/Career-Page-Banner_Full-Stack-Developer.jpg](https://drive.google.com/file/d/1KEvgCIVLG2UCtmsC3_LnCK7AbDV2NYYD/view?usp=sharing))
 
 <h1 align="center">Hi 👋, I'm Rajtilak Patel</h1>
 <h3 align="center">Full Stack Web Developer | MERN & PostgreSQL | 2.5+ Years of Experience</h3>
