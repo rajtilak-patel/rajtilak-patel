@@ -1,4 +1,4 @@
-![banner]([(https://drive.google.com/file/d/1KEvgCIVLG2UCtmsC3_LnCK7AbDV2NYYD/view?usp=sharing](https://images.unsplash.com/photo-1509966756634-9c23dd6e6815?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZ1bGwlMjBzdGFjayUyMGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D)))
+
 
 <h1 align="center">Hi 👋, I'm Rajtilak Patel</h1>
 <h3 align="center">Full Stack Web Developer | MERN & PostgreSQL | 2.5+ Years of Experience</h3>
@@ -67,15 +67,6 @@
   <a href="https://github.com/rajtilak-patel" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub"/></a>
 </p>
 
----
-
-## 🔹 GitHub Stats
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=rajtilak-patel&show_icons=true&locale=en" alt="GitHub Stats" width="450"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajtilak-patel&layout=compact" alt="Top Languages" width="250"/>
-</p>
-
----
 
 ## 🔹 Fun Fact
 - ⚡ I love solving complex backend problems and optimizing performance.  
